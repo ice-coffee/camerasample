@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Camera2View">
+        <!--前置摄像-->
+        <attr name="isFaceFront" format="boolean" />
+        <!--正方形预览窗口-->
+        <attr name="isSquare" format="boolean" />
+        <!--圆形预览窗口-->
+        <attr name="isCircle" format="boolean" />
+        <!--圆角-->
+        <attr name="raidus" format="dimension" />
+        <!--闪光灯是否启动-->
+        <attr name="isFlash" format="boolean" />
+        <!--闪光灯状态-->
+        <attr name="flashModel" format="enum">
+            <enum name="off" value="0"/>
+            <enum name="open" value="1"/>
+            <enum name="autoFlash" value="2"/>
+            <enum name="alwaysFlash" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
